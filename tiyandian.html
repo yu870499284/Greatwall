@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<meta name="author" content="liyujia">
+	<title>『oppo线下体验店』</title>
+	<link rel="icon" href="img/title.png" type="image/png">
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/model.css">
+	<link rel="stylesheet" href="css/tiyandian.css">
+	<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=VWaNfQyFKkeNP1g148zuNeul"></script>
+</head>
+
+<body>
+	<!-- 导航 -->
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div id="top">
+			<ul class="container">
+				<li><a href="#">登录</a></span>
+					<li><a href="#">注册</a></span>
+						<li><a href="#">Global</a></span>
+			</ul>
+		</div>
+		<div class="container">
+
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+					aria-controls="navbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+				<!-- 图标 -->
+				<a class="navbar-brand" href="index.html"><img src="img/logo.png" alt=""></a>
+				<div class="Iright">
+					<a href="#"><img src="img/icon-menu-user.png" alt=""></a>
+				</div>
+			</div>
+
+
+			<div class="collapse navbar-collapse" id="navbar">
+				<ul class="nav navbar-nav">
+					<li>
+						<a href="index.html">首页</a>
+					</li>
+					<li>
+						<a href="chanpin.html">产品</a>
+					</li>
+					<li>
+						<a href="shangcheng.html">商城</a>
+					</li>
+					<li class="active">
+						<a href="#">体验店</a>
+					</li>
+					<li>
+						<a href="fuwu.html">服务</a>
+					</li>
+					<li>
+						<a href="#contact">ColorOS</a>
+					</li>
+					<li>
+						<a href="#">社区</a>
+					</li>
+				</ul>
+			</div>
+
+		</div>
+	</nav>
+
+	<main>
+		<div class="tyd-top container">
+			<span><a href="index.html">首页</a></span>
+			<span>&#x3000;/&#x3000;</span>
+			<span>体验店</span>
+		</div>
+		<div class="tyd-bg">
+			<picture>
+				<source media="(min-width: 992px)" srcset="img/tiyandian/bg1.jpg">
+				<source media="(min-width: 767px)" srcset="img/tiyandian/bg2.jpg">
+				<img src="img/tiyandian/bg3.jpg">
+			</picture>
+			<div class="search">
+				<input type="text" name="" value="" placeholder="请输入城市名或体验店名称">
+				<input type="submit" value="搜 索">
+			</div>
+		</div>
+
+		<div id="tyd-choose">
+			<div class="tyd-choose container">
+				<ul>
+<li class="col-sm-12 col-md-3">
+	请选择查询的城市：
+</li>
+<li class="col-sm-12 col-md-3">
+	<select>
+						<option value="">请选择</option>
+						<option value="">安徽省</option>
+						<option value="">福建省</option>
+						<option value="">广东省</option>
+						<option value="">河南省</option>
+						<option value="">河北省</option>
+					</select>
+</li>
+<li class="col-sm-12 col-md-3">
+	<select>
+						<option value="">请选择</option>
+						<option value="">北京市</option>
+						<option value="">重庆市</option>
+						<option value="">天津市</option>
+						<option value="">郑州市</option>
+						<option value="">海南市</option>
+					</select>
+</li>
+<li class="col-sm-12 col-md-3">
+	<select>
+						<option value="">所有门店类型</option>
+						<option value="">品牌形象店</option>
+						<option value="">旗舰店</option>
+						<option value="">体验店</option>
+						<option value="">市县体验店</option>
+						<option value="">乡镇体验店</option>
+					</select>
+</li>
+</ul>
+</div>
+</div>
+
+
+<div id="map" class="container">
+	<div class="map-big">
+		<div class="map col-md-9">
+			<div id="allmap"></div>
+		</div>
+		<div class="map-right col-md-3">
+			<p class="map-topp">标准服务</p>
+			<ul class="map-top">
+				<li><span></span>免费充电</li>
+				<li>手机保养 + 维护</li>
+				<li>免费WIFI</li>
+				<li>免费畅饮</li>
+			</ul>
+			<p class="map-botp">会员服务</p>
+			<ul class="map-bot">
+				<li>手机贴膜</li>
+				<li>积分兑换礼品</li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+</main>
+
+<footer>
+	<div id="footersup" class="container">
+		<ul id="footertop" class="col-sm-9">
+			<li><a href="">推荐机型</a>
+				<ul>
+					<a href="#">
+						<li>R9s</li>
+					</a>
+					<a href="#">
+						<li>R9s Plus</li>
+					</a>
+					<a href="#">
+						<li>A59s</li>
+					</a>
+					<a href="#">
+						<li>A57</li>
+					</a>
+				</ul>
+			</li>
+			<li><a href="">在线购买</a>
+				<ul>
+					<a href="#">
+						<li>手机</li>
+					</a>
+					<a href="#">
+						<li>配件</li>
+					</a>
+					<a href="#">
+						<li>购物指南</li>
+					</a>
+					<a href="#">
+						<li>官方授权网店</li>
+					</a>
+				</ul>
+			</li>
+			<li><a href="">服务</a>
+				<ul>
+					<a href="#">
+						<li>服务网点查询</li>
+					</a>
+					<a href="#">
+						<li>零配件价格查询</li>
+					</a>
+					<a href="#">
+						<li>云服务</li>
+					</a>
+					<a href="#">
+						<li>建议反馈</li>
+					</a>
+				</ul>
+			</li>
+			<li><a href="">关于我们</a>
+				<ul>
+					<a href="#">
+						<li>关于OPPO</li>
+					</a>
+					<a href="#">
+						<li>加入我们</li>
+					</a>
+					<a href="#">
+						<li>采购相关</li>
+					</a>
+					<a href="#">
+						<li>发布会回顾</li>
+					</a>
+				</ul>
+			</li>
+		</ul>
+		<ul id="footerbot" class="col-sm-3">
+			<li>
+				<a href=""><img src="img/index/tel.png" alt=""></a>
+			</li>
+
+			<div>
+				<li><a href="">4001-666-888</a></li>
+				<li><a href="">(24小时全国服务热线)</a></li>
+			</div>
+		</ul>
+	</div>
+	<hr>
+	<div id="footersub">
+		<div class="footer-sub-top">
+
+			<p>
+				关注我们:&#x3000;
+				<span><img src="img/index/weibo.png" alt=""></span>
+				<span><img src="img/index/weixin.png" alt=""></span>
+				<span><img src="img/index/shoucang.png" alt=""></span>
+			</p>
+		</div>
+		<div class="footer-sub-bot">
+			<p>&copy; 2005-2017 东莞市永盛通信科技有限公司 版权所有 粤ICP备08130115号-1 联系方式：4001-666-888</p>
+		</div>
+	</div>
+</footer>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/model.js"></script>
+</body>
+
+</html>
+<script type="text/javascript">
+	//搜索范围
+	var radius = 1500;
+	var map = new BMap.Map("allmap"); 
+	//中心点
+	var mPoint = new BMap.Point(121.481216,31.240092);
+	map.enableScrollWheelZoom();
+	map.centerAndZoom(mPoint,14);//缩放级别
+
+	//画个圈圈
+	var circle = new BMap.Circle(mPoint,radius,{fillColor:"blue", strokeWeight: 1 ,fillOpacity: 0.3, strokeOpacity: 0.3});
+	map.addOverlay(circle);
+	
+	//搜半径内的地铁站
+  var local =  new BMap.LocalSearch(map, {renderOptions: {map: map, autoViewport: false,panel: "r-result"}});  
+    local.searchNearby('地铁站',mPoint,radius);
+</script>
