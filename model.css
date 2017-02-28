@@ -1,0 +1,200 @@
+			*{
+				box-sizing: border-box;
+			}
+			body{
+				min-width: 320px;
+				overflow-x: hidden;
+			}
+			main{
+           		 padding-top: 7rem;
+				 margin-bottom: 3rem;
+        	}
+			hr{
+				border-top: 1px solid #999;
+			}
+			footer{
+				padding-bottom: 3rem;
+				padding-top: 3rem;
+				background-color: #efefef;
+			}
+			ul,li,p{
+				   margin: 0;
+				   padding: 0;
+			   }
+			   body{
+				   min-width: 320px;
+			   }
+			ul,li{
+				list-style: none;
+				margin: 0;
+				padding: 0;
+			}
+			
+            #top{  
+                width: 100%;
+                height: 2.6rem;
+                background:rgb(0, 155, 114);             
+                text-align: right;
+                padding-right:2rem;
+            }
+            #top li{
+                display: inline-block;
+                width: 5.5rem;
+                height: 2.6rem;
+                border-left: 0.01rem solid white;
+                line-height: 2.6rem;
+                text-align: center;
+            }
+            #top li a {
+                color:#eee;
+            }
+            button{
+				border: none !important;
+                float:left !important;
+				margin-left: 1rem;
+            }
+			.navbar-header{
+				   overflow: hidden;
+			   }
+			.navbar-brand{
+				height: 4.2rem;
+			}
+			.navbar-brand :hover{
+				cursor: pointer;
+			}
+			.navbar-brand img{
+				height: 100%;
+			}
+			.navbar {
+				background:  #fff !important;
+				margin-bottom: 0;
+				border: none;
+				box-shadow: 0.5rem 0 0.3rem black;
+				min-width: 320px;
+			}
+			
+			.navbar-nav li{
+				text-align: center;
+			}
+			.navbar-nav li a{
+				color: rgb(0, 155, 114) !important;
+			}
+			.Iright{
+				height: 2rem;
+				float: right;
+				margin-right: 1.5rem;
+				display: none;
+				margin-top: 1rem;
+			}
+			#navbar .nav li.active a{
+				border-bottom: 0.3rem solid rgb(0, 155, 114);   
+				background: white !important;
+				}
+			.Iright img{height: 100%;}
+
+			#navbar{
+				overflow: hidden;
+			}
+            /*--媒体查询767--------------------------------------------------------------------------------------------*/
+			@media (max-width: 767px){
+				main{
+           		 padding-top: 4rem;
+        	}
+                #top{display:none;}
+                .navbar-brand{
+                   position:absolute;
+                   left:calc(50% - 70px);
+                }
+				.navbar-nav{float:left !important;padding: 0;margin: 0;width: 100%;min-width: 320px;}
+				.navbar-nav li{display: inline-block !important; font-size: 1rem;}
+				.Iright{display: inline-block;}
+				.navbar-nav li a{
+				color: rgb(0, 155, 114) !important;
+				padding-left: 0.2rem;
+				padding-right: 0.2rem;
+			}
+			
+			/*页脚*/
+			
+			#footertop{
+				display: none !important;
+			}
+			#footerbot{
+				width: 100%;
+				overflow: hidden;
+				min-width: 320px;
+				padding: 0;
+			}
+			#footerbot>li:nth-child(1){
+				float: right;
+				width: 13rem;;
+				margin-top: 1rem;
+				padding-right: 1.5rem;
+			}
+			#footerbot>li:nth-child(1) img{
+				width: 100%;
+			}
+			#footerbot div{
+				width: 50%;
+				float: left;
+			}
+			#footerbot div li:nth-child(1){
+				font-size: 2rem !important;
+				line-height: 2rem !important;
+			}
+            }
+			#footertop{
+				overflow: hidden;
+				padding: 0;
+			}
+			#footertop>li{
+				float: left;
+				width: 25%;
+				text-align: left;
+				font-size: 1.5rem;
+				font-weight: bold;
+				padding-bottom: 1rem;
+				
+			}
+			#footertop li a{
+				color: #444;
+				display: block;
+				line-height: 3rem;
+				margin-bottom: 1rem;
+			}
+			#footertop li ul li{
+				font-size: 1.3rem;
+				font-weight: normal;
+				color: #555;
+				text-align: left;
+				line-height: 2rem;
+			}
+            #footerbot{
+				vertical-align: top;
+				padding-top: 1rem 0 0 0 !important;
+				text-align: center;
+			}
+			#footerbot li a{
+				color: #333;
+			}
+			
+			#footerbot div li:nth-child(1){
+				font-size: 3rem;
+				line-height: 4rem;
+			}
+			#footerbot div li:nth-child(2){
+				font-size: 1.5rem;
+				line-height: 3rem;
+			}
+			#footersub{
+				padding:auto 1rem;
+				text-align: center;
+				color: #666;
+			}
+			#footersub .footer-sub-top{
+				margin-bottom: 1.5rem;
+				margin-top: 1rem;
+			}
+			#footersub .footer-sub-bot p{
+				line-height: 2.5rem;
+			}

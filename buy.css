@@ -1,0 +1,178 @@
+body{
+	background: #EFEFEF;
+}
+#buy-top{
+    font-size: 1.7rem;
+    color: #666;
+    margin: 2rem auto;
+}
+#buy-top a{
+    color: #666;
+}
+.buy-top{
+	/*border: 1px solid firebrick;*/
+	overflow: hidden;
+	padding-top: 1rem;
+	margin-bottom: 2rem;
+}
+/*.buy-top .left{
+	border: 1px solid forestgreen;
+}
+
+.buy-top .right{
+	border: 1px solid forestgreen;
+}*/
+.buy-top .left .pic-big{
+	/*border: 1px solid forestgreen;*/
+	width: 100%;
+}
+.buy-top .left .pic-big img{
+	width: 100%;
+}
+.buy-top .left .pic-small{
+	margin: 2rem 0;
+}
+.buy-top .left .pic-small ul{
+	overflow: hidden;
+}
+.buy-top .left .pic-small ul li{
+	width: 25%;
+	float: left;
+}
+.buy-top .left .pic-small ul li div{
+	width: 100px;
+	height: 100px;
+	border: 1px solid;
+	border-color: #999;
+	border-radius: 50%;
+	padding-top: 11px;
+	margin: 0 auto;
+	text-align: center;
+}
+.buy-top .left .pic-small ul li div.active{
+	border-color: rgb(0,155,114);
+}
+/*右边*/
+.buy-top .right .right1 .title{
+	font-size: 2rem;
+	line-height: 6rem;
+}
+.buy-top .right .right1 .exp{
+	font-size: 0.8rem;
+	color: #666;
+}
+.buy-top .right .right1 .price{
+	font-size: 2rem;
+	color: red;
+	line-height: 4rems;
+}
+.buy-top .right .right2{
+	border-bottom: 1px dashed #999;
+}
+.buy-top .right .right2 ul li label{
+	font-size: 1.5rem;
+	font-weight: normal;
+	line-height: 3rem;
+	margin-right: 1rem;
+}
+.buy-top .right .right2 ul li label:nth-child(1){
+	font-weight: bold;
+}
+.buy-top .right .right3{
+	padding: 1rem 0;
+}
+.buy-top .right .right3 label{
+	margin-right: 1rem;
+	font-size: 1.5rem;
+}
+.buy-top .right .right3 div{
+	display: inline-block;
+	vertical-align: top;
+}
+.buy-top .right .right3 .nor{
+	font-weight: normal;
+}
+.buy-top .right .right4{
+	border-bottom: 1px dashed #999;
+	padding: 1rem 0;
+}
+.buy-top .right .right4 label{
+	margin-right: 1rem;	
+	font-size: 1.5rem;
+}
+.buy-top .right .right4 div{
+	display: inline-block;
+	vertical-align: top;
+}.buy-top .right .right4 .nor{
+	font-weight: normal;
+}
+.buy-top .right .right4 p{
+	line-height: 2rem;
+}
+.buy-top .right .right5{
+	padding: 1rem 0;
+}
+.buy-top .right .right5 .red{
+	display: inline-block;
+	background: red;
+	color: white;
+	line-height: 2rem;
+}
+
+.buy-top .right5 label {
+	font-size: 1.5rem;
+	margin-right: 1rem;
+}
+.buy-top .right6 {
+	width: 100%;
+	height: 6rem;
+	background-color: white;
+	border: 1px solid #ccc;
+	margin-top:1rem ;
+}
+.buy-top .right6 input{
+	display: inline-block;
+	width: 20%;
+	height: 3rem;
+	text-align: center;
+	margin: 1.5rem 2rem 0 1rem;
+	border: 1px solid #aaa;
+	border-radius: 0.5rem;
+}
+.buy-top .right6 div{
+	display: inline-block;
+	width: 30%;
+	height: 4rem;
+	border: 1px solid #ccc;
+	text-align: center;
+	line-height: 4rem;
+	margin-right: 1rem;
+	border-radius: 0.5rem;
+	color: white;
+	font-size: 1.7rem;
+}
+.buy-top .right6 .one{
+	background: rgb(71,180,136);
+}
+.buy-top .right6 .two{
+	background: rgb(249,94,94);
+}
+.boon{
+	width: 100%;
+	height: 5rem;
+	background: white;
+}
+.boon .text span{
+	display: inline-block;
+	font-size: 2rem;
+	color: white;
+	padding: 0 2rem 0 2rem;
+	line-height: 5rem;
+	background: rgb(0,155,114);	
+}
+.buy-bot{
+	width: 100%;
+}
+.buy-bot img{
+	width: 100%;
+}

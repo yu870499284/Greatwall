@@ -1,0 +1,103 @@
+*{
+				   box-sizing: border-box;
+			   }	
+			   		   			
+			.Iright{
+				height: 2rem;
+				float: right;
+				margin-right: 1.5rem;
+				display: none;
+				margin-top: 1rem;
+			}
+			.active{
+				border-bottom: 0.3rem solid rgb(0, 155, 114);   
+				}
+			.Iright img{height: 100%;}
+			
+			
+            /*--媒体查询767--------------------------------------------------------------------------------------------*/
+			@media (max-width: 767px){
+                #top{display:none;}
+                .navbar-brand{
+                   position:absolute;
+                   left:calc(50% - 70px);
+                }
+				.navbar-nav{float:left !important;padding: 0;margin: 0;width: 100%;min-width: 320px;}
+				.navbar-nav li{display: inline-block !important; font-size: 1rem;}
+				.Iright{display: inline-block;}
+				.navbar-nav li a{
+				color: rgb(0, 155, 114) !important;
+				padding-left: 0.2rem;
+				padding-right: 0.2rem;
+			}
+			#pics .pic{
+				padding-left: 0 !important;				
+			}
+			
+
+            }
+			main section{
+				width: 100%;
+				position: relative;
+				min-width: 320px !important;
+			}
+			main .lun{
+				width: 100vw;
+				position: relative;
+				overflow: hidden;
+				margin-bottom: 1.5rem;
+			}
+			main section .lun .lul{
+				position: relative;
+				width: 10000px;
+				overflow: hidden;
+			}
+			main section .lun .lul li{
+				width: 100vw;
+				height: 100%;	
+				float: left;
+			} 
+			main section .lun .lul li a img{
+				width: 100vw;
+			}
+			
+			main section .lun .point{
+				position: absolute;
+				width: 6rem;
+				height: 2rem;
+				left: calc(50% - 3rem);
+				bottom: 1rem;
+			}
+			main section .lun .point li{
+				display: inline-block;
+				width: 1.2rem;
+				height: 1.2rem;
+				border-radius: 50%;
+				border: none;
+				background-color: #888;
+				margin: 0.25rem;
+				cursor: pointer;
+			}
+			main section .lun  .point li.yes{
+				background-color: white;
+				border: 2px solid rgb(0, 155, 114);
+			}
+			#pics{
+				width: 100%;
+				padding: 0px;
+				margin: 2rem 0;
+				overflow: hidden;
+			}
+			#pics .pic{
+				padding: 0;
+				margin-bottom: 5px;
+				border: 3px solid;
+				border-color: white;
+				width: 33.3%;
+				height: 17vw;
+				float: left;
+				overflow: hidden;
+			}
+			#pics .pic img{
+				width: 100%;	
+			}

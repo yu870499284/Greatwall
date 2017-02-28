@@ -1,0 +1,68 @@
+        .fw-pic1{
+			width: 100%;
+			overflow: hidden;
+		}
+		.fw-pic1 .pull-left  img{
+			width: 100%;
+			margin-bottom: 1rem;
+		}
+		.fw-pic2{
+			margin-top: 3rem;
+		}
+		.fw-pic2 li{
+			padding: 0.5rem 0.5rem 0 0 ;
+			margin: 0;
+		}
+		.fw-pic2 li img{
+			width: 100%;
+		}
+		.fw-pic2 p{
+			width: 100%;
+			overflow: hidden;
+		}
+		.fw-pic2 p span:nth-child(1) {		
+			font-size: 2rem;
+			font-weight: bold;
+			float: left;
+
+		}
+		.fw-pic2 p span:nth-child(2){
+			font-size: 1.8rem;
+			line-height: 4rem;
+			float: right;			
+		}
+		.fw-pic2 p span:nth-child(2) a{
+			color: black;
+		}
+		.fw-pic3{
+			margin-top: 3rem;
+		}
+		.fw-pic3 p{
+			overflow: hidden;
+		}
+		.fw-pic3 p span{
+			font-size: 2rem;
+			font-weight: bold;
+			float: left;
+		}
+		.fw-pic3 li{
+			padding: 0.5rem 0.5rem 0 0;
+		}
+		.fw-pic3 li img{
+				width: 100%;
+		}
+
+		.fw-pic4{
+			margin-top: 3rem;
+			margin-bottom: 4rem;
+		}
+		.fw-pic4 ul li{
+			font-size: 1.3rem;
+		}
+		.fw-pic4 ul li:first-child{
+			font-size: 2rem;
+			font-weight: bold;
+		}
+		hr{
+			margin: 1rem;
+		}
